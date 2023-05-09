@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2: Primeros pasos con HTML</title>
+    <link rel="shortcut icon" href="./imagenes/logo.jpg" type="image/x-icon">
+</head>
+<body>
+
+    <ol><!--listas ordenadas-->
+        <li>Inicio</li>
+        <li>Quiénes somos</li>
+        <li>Servicios</li>
+        <li>Contacto</li>
+        <li>
+            <a href="#formulario">Formulario</a>
+        </li>
+    </ol>
+    <ul><!--listas desordenadas-->
+        <li>Harina</li>
+        <li>Sal</li>
+        <li>Huevo</li>
+    </ul>
+
+    <hr>
+
+    <table border="1">
+        <tr>
+            <th>Producto</th>
+            <th>Color</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Camiseta</td>
+            <td>Rojo</td>
+            <td>$500</td>
+        </tr>
+        <tr>
+            <td>Pantalón</td>
+            <td>Azul</td>
+            <td>$700</td>
+        </tr>
+        <tr>
+            <td>Pantalón</td>
+            <td>Azul</td>
+            <td>$700</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <form id="formulario">
+        <label for="nombre">
+            Nombre
+            <input type="text" id="nombre" required="required">
+        </label>
+        <label for="email">
+            E-mail
+            <input type="email" id="email" required>
+        </label>
+        <label for="numero">
+            numero
+            <input type="number" id="numero" required>
+        </label>
+        <label for="mensaje">
+            Mensaje
+            <textarea name="" id="mensaje" cols="30" rows="5" required></textarea>
+        </label>
+        
+        <br>
+        <br>
+
+        <label for="si">
+            <input type="radio" name="siono" id="si"> Sí
+        </label>
+        <label for="no">
+            <input type="radio" name="siono" id="no"> No
+        </label>
+        <label for="nose">
+            <input type="radio" name="siono" id="nose"> No sé
+        </label>
+
+        <br>
+        <br>
+
+        <label for="sicheck">
+            <input type="checkbox" name="sionocheck" id="sicheck"> Sí
+        </label>
+        <label for="nocheck">
+            <input type="checkbox" name="sionocheck" id="nocheck"> No
+        </label>
+        <label for="nosecheck">
+            <input type="checkbox" name="sionocheck" id="nosecheck"> No sé
+        </label>
+
+        <br>
+        <br>
+
+        <select name="" id="">
+            <option disabled="disabled" selected="selected">Seleccioná un país</option>
+            <option>Argentina</option>
+            <option>Uruguay</option>
+            <option>Chile</option>
+        </select>
+
+        <br>
+        <br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <hr>
+
+    <a href="https://www.coderhouse.com/" target="_blank">
+        Coderhouse
+    </a>
+    <br>
+    <a href="./contacto.html">
+        Contacto
+    </a>
+
+    <hr>
+
+    <img src="./imagenes/logo.jpg" alt="Logo de Coderhouse" title="Logo de Coderhouse" width="100px">
+
+    <hr>
+
+    <iframe width="300" height="150" src="https://www.youtube.com/embed/00yme7XOzLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    
+</body>
+</html>

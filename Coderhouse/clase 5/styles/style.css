@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    background-color: #8c52ff;
+    display: flex;
+    gap: 20px;
+    grid-gap: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    grid-gap: 10px;
+}
+
+.menu__item a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Sigmar', cursive;
+}
+
+.menu__item.active a {
+    text-decoration: underline;
+}
+
+.imagenPrincipal {
+    height: 80vh;
+    background-image: url("../img/coco.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 200px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.imagenPrincipal h2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+    padding-inline: 15px;
+}
+
+.imagenPrincipal p {
+    color: white;
+    text-align: center;
+}
+
+.tarjetitas {
+    padding: 60px;
+    display: flex;
+    gap: 30px;
+
+}
+
+.tarjetita {
+    background-color: #8c52ff8f;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.informacion {
+    padding: 0 20px 20px 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.tarjetita__imagen {
+    max-width: 100%;
+}
+
+.pie {
+    background-color: #7947dd;
+    color: white;
+    padding-block: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Sigmar', cursive;
+}
+
+.tarjetitados {
+    flex: 1.5;
+}
